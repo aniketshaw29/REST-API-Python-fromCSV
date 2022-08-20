@@ -1,0 +1,15 @@
+Step 1: import all the libraries
+	pip install pandas
+	pip install flask
+
+Step 2: Our API will have 2 endpoints, 
+        the first one is /api/users which will support http methods get, post & delete.
+        And the 2nd endpoints /api/books will only support get
+        The API should allow us to get a list of all user, register a new user and delete a user.
+
+Step 3: To activate the endpoints we must have minimum 2 methods
+
+Step 4: Now apply main and start the server program
+
+Step 5: Users endpoints
+        This function should return all the user only if the request method is GET
